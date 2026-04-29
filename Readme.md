@@ -20,7 +20,7 @@
 
 ## 📋 Table des matières
 
-```
+
 - [Vue d'ensemble](#-vue-densemble)
 - [Architecture](#-architecture)
 - [Prérequis](#-prérequis)
@@ -34,7 +34,7 @@
 - [Bonus — RAG avec LangChain](#-bonus--rag-avec-langchain)
 - [Dépannage](#-dépannage)
 - [Ressources](#-ressources)
-```
+
 
 ---
 
