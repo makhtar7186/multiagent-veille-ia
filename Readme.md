@@ -1,17 +1,26 @@
 # 🤖 Système Multi-Agents IA — CrewAI + LangChain + Ollama
 
+
 > Pipeline de veille IA automatisée avec des agents spécialisés entièrement en local via Ollama — aucune clé API requise.
 
+---
+
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
+
 ![CrewAI](https://img.shields.io/badge/CrewAI-≥0.80-7c5cfc?style=flat)
+
 ![LangChain](https://img.shields.io/badge/LangChain-latest-00d4aa?style=flat)
+
 ![Ollama](https://img.shields.io/badge/Ollama-local-black?style=flat)
+
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat)
+
 
 ---
 
 ## 📋 Table des matières
 
+```
 - [Vue d'ensemble](#-vue-densemble)
 - [Architecture](#-architecture)
 - [Prérequis](#-prérequis)
@@ -25,6 +34,7 @@
 - [Bonus — RAG avec LangChain](#-bonus--rag-avec-langchain)
 - [Dépannage](#-dépannage)
 - [Ressources](#-ressources)
+```
 
 ---
 
@@ -41,15 +51,18 @@ Le tout tourne **100% en local** grâce à [Ollama](https://ollama.ai), sans auc
 ### Pourquoi le multi-agents ?
 
 Un seul LLM atteint rapidement ses limites sur des tâches complexes (fenêtre de contexte, spécialisation). En décomposant le travail en agents spécialisés, on obtient :
+```
 
 | Approche | Qualité | Coût | Contrôle |
 |---|---|---|---|
 | LLM unique | ⚡ Rapide | 💚 Faible | 🔴 Limité |
 | Multi-agents | ✅ Meilleure | 🟡 Modéré | ✅ Total |
 
+```
 ---
 
 ## 🏗 Architecture
+
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -73,7 +86,9 @@ Un seul LLM atteint rapidement ses limites sur des tâches complexes (fenêtre d
               └──────────────────┘
 ```
 
+
 ### Flux d'exécution
+
 
 ```
 Lancement → AI Scout cherche → Analyst analyse → Reporter rédige → rapport.md
