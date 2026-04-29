@@ -85,7 +85,7 @@ Un seul LLM atteint rapidement ses limites sur des tâches complexes (fenêtre d
               │  mistral:7b      │
               └──────────────────┘
 ```
-
+![alt text](image.png)
 
 ### Flux d'exécution
 
