@@ -1,5 +1,7 @@
 from crewai.tools import BaseTool
-from duckduckgo_search import DDGS
+#from duckduckgo_search import DDGS # en fonction de la version tu peut utiliser duckduckgo_search ou ddgs de python
+from ddgs import DDGS
+
 from pydantic import BaseModel, Field
 from typing import Type
 
