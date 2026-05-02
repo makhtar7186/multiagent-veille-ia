@@ -2,9 +2,8 @@
 from crewai import Crew, Process
 from agents.team import TeamAgent
 from tasks.workflow import Workflow
-from config.llm_config import LLMConfig
 import time
-llm_config = LLMConfig()
+
 
 def run_veille_ia():
     workflow = Workflow()
