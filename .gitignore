@@ -25,3 +25,7 @@ MANIFEST
 *.sqlite3
 ./__pycache__/
 ./.pytest_cache/
+*.pdf
+*.docx
+test.py
+rapport*
