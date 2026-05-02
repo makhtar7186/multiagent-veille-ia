@@ -12,7 +12,7 @@ class LLMConfig:
             model=model_name,               # format obligatoire : "ollama/nom_modele"
             base_url="http://localhost:11434",
             temperature=0.2,
-            timeout=250,
+            
         )
     
     def init_embedder(self):
